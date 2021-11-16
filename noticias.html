@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejemplo Twitter</title>
+	<link rel="stylesheet" type="text/css" href="styleTwitter.css">
+</head>
+<body>
+	<header>
+		<div style="font-size: 25px; width: 30%; color: white;">Twitter bot</div>
+		<nav>
+			<a href="index.html">Inicio</a>
+			<a href="tweets.html">Tweets</a>
+		</nav>
+	</header>
+
+	<main style="text-align: center;">
+        <!--Este widget no aparece en la página-->
+		<div style="margin-top:10px;">
+            <div data-sqwidget="src:http://www.bbc.co.uk/worldservice/widget/live/v2/bbcwswidget-es.js" 
+            data-sqwidget-settings="package:es;" style="padding:0; margin:0; border:none; width:280px" 
+            id="bbc-es-widget-1"></div>
+            <script src="/staticarchive/2e611a202ae2c0da5c18df7dde61433360a4a952.js" type="text/javascript" async="async"></script>
+        </div>
+        <!-- Este deberia mostrar noticias del COVID19, pero carga con un mensaje de error -->
+        <!--
+            <iframe src="https://www.welivesecurity.com/nwa/?e=.vF59iO" 
+            height="950" width="665" style="max-width: 100%;"></iframe>
+        -->
+	</main>
+</body>
+</html>
