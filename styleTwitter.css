@@ -28,6 +28,8 @@ nav a{
 	padding: 5px;
 	margin-left: 5px;
 	border-radius: 5px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
 }
 
 nav a:hover{
@@ -37,4 +39,19 @@ nav a:hover{
 
 .twitter-timeline{
 	margin-left: 250px;
+}
+
+#news-container{
+	margin:auto;
+	margin-top: 3%;
+	width:50%;
+	border: 2px #14171A;
+}
+
+#news-head{
+	background-color: #1DA1F2;
+	padding: 20px 10px 20px 10px;
+	font-size: 25px; 
+	color: white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
