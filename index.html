@@ -1,32 +1,54 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Ejemplo Twitter</title>
 	<link rel="stylesheet" type="text/css" href="styleTwitter.css">
 </head>
+
 <body>
 	<header>
 		<div style="font-size: 25px; width: 30%; color: white;">Twitter bot</div>
 		<nav>
 			<a href="index.html">Inicio</a>
 			<a href="tweets.html">Tweets</a>
-      <a href="contact.html">Contactanos</a>
+			<a href="contact.html">Contactanos</a>
 		</nav>
 	</header>
 
 	<main style="text-align: center;">
-		<div class="interaction">
+		<div id="home">
 			<div class="container">
 				<div class="rectangle">
 					<h1 class="subtitle">¿Cómo interactuar con el bot?</h1>
 				</div>
+				<div style="margin-top: 10px; margin-left: 10px; margin-right: 10px;">
+					<article>
+
+					</article>
+				</div>
+			</div>
+			<div class="container">
+				<div class="rectangle">
+					<h1 class="subtitle">Tweets</h1>
+				</div>
 				<article>
-					
+					<!-- Se tarda un poco en actualizar despues de que pones un tweet nuevo -->
+
+					<!-- "data-width" controla el ancho del display del timeline -->
+
+					<!-- "data-height" controla el alto del display del timeline -->
+					<!---->
+					<a class="twitter-timeline" href="https://twitter.com/AdrianMReds?ref_src=twsrc%5Etfw"
+						data-width="600" data-height="550">Tweets by AdrianMReds</a>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 				</article>
 			</div>
 		</div>
 	</main>
 </body>
+
 </html>
