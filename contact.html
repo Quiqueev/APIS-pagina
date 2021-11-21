@@ -8,22 +8,22 @@
 	<title>Ejemplo Twitter</title>
 	<link rel="stylesheet" type="text/css" href="styleTwitter.css">
 </head>
-<body style="background:rgb(30,30,40);">
+<body>
 	<header>
-		<div style="font-size: 25px; width: 30%; color: white;">Twitter bot</div>
+		<div style="font-size: 25px; width: 30%; color: white;">COVID Bot</div>
 		<nav>
 			<a href="index.html">Inicio</a>
 			<a href="tweets.html">Tweets</a>
             <a href="contact.html">Contactanos</a>
 		</nav>
 	</header>
-	<main style="text-align: center">
+	<main style="text-align: center" id="home">
 		<div class="container" >
             <h1 class="contactTitle">¿Tienes algun comentario? ¡Cuentanos!</h1>
             <form method="post">
-                <input name="name" type="text" class="feedback-input" placeholder="Nombre" required/>   
-                <input name="email" type="email" class="feedback-input" placeholder="Correo" required/>
-                <textarea name="text" class="feedback-input" placeholder="Comentario" required></textarea>
+                <input style="background-color: white;" name="name" type="text" class="feedback-input" placeholder="Nombre" required/>   
+                <input style="background-color: white;" name="email" type="email" class="feedback-input" placeholder="Correo" required/>
+                <textarea style="background-color: white;" name="text" class="feedback-input" placeholder="Comentario" required></textarea>
                 <input type="submit" name="submit" value="Enviar"/>
               </form>
           </div>

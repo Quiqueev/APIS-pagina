@@ -12,6 +12,7 @@ header{
 	justify-content: space-between;
 	padding: 25px;
 	background-color: #1DA1F2;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 header div{
@@ -19,7 +20,7 @@ header div{
 }
 
 nav{
-	font-size: 25px;
+	font-size: 23px;
 }
 
 nav a{
@@ -28,7 +29,6 @@ nav a{
 	padding: 5px;
 	margin-left: 5px;
 	border-radius: 5px;
-	font-family: Helvetica, Arial, sans-serif;
 }
 
 nav a:hover{
@@ -37,61 +37,57 @@ nav a:hover{
 }
 
 .twitter-timeline{
-	margin-left: 250px;
+	margin: 10px 10px 10px 10px;
 }
 
-.interaction{
-	position: absolute;
-	width: 656px;
-	height: 638px;
-	left: 30px;
-	top: 147px;
-
-	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+#home{
+  margin: 20px 20px 20px 20px;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .container{
-	position: absolute;
-	width: 656px;
+	/*position: absolute;*/
+	width: 600px;
 	height: 638px;
-	/* left: 30px;
-	top: 147px; */
-
+  margin-top: 20px;
 	background: #EFEFEF;
 	border: 3px solid #1DA1F2;
 	box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .rectangle{
-	position: absolute;
-	width: 653px;
-	height: 79px;
-	top: -1px;
+	/*position: absolute;*/
+  display: flex;
+  align-items: center;
+	width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
 	background: #1DA1F2;
 }
 
 .subtitle {
-	position: absolute;
-	width: 536px;
-	height: 47px;
-	left: 50px;
-	top: 20px;
+	/*position: absolute;*/
+	width: 100%;
+
 
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 36px;
+	font-size: 30px;
 	line-height: 42px;
 
 	color: #FFFFFF;
 }
 
 article{
-	position: absolute;
-	width: 574px;
-	height: 533px;
-	left: 35px;
-	top: 90px;
+	/*position: absolute;*/
+  display: flex;
+  justify-content: center;
+	width: 100%;
+	height: 560px;
 	background: #FFFFFF;
 }
 
@@ -117,7 +113,7 @@ form { max-width:420px; margin:50px auto; }
 .feedback-input:focus { border:2px solid #1269bb; }
 
 .contactTitle {
-	color:white;
+	color:black;
   	font-family: Helvetica, Arial, sans-serif;
 	padding: 13px;
 	margin-top: 20px;
@@ -150,3 +146,4 @@ input[type="file"] {
 }
 
 [type="submit"]:hover { background:#1269bb; }
+
