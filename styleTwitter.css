@@ -12,7 +12,7 @@ header{
 	justify-content: space-between;
 	padding: 25px;
 	background-color: #1DA1F2;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 header div{
@@ -84,11 +84,20 @@ nav a:hover{
 
 article{
 	/*position: absolute;*/
-  display: flex;
-  justify-content: center;
+  	display: block;
 	width: 100%;
 	height: 560px;
 	background: #FFFFFF;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.txtInstructions {
+	text-align: start;
+}
+
+.olInstructions {
+	text-align: start;
+	margin-left: 50px;
 }
 
 form { max-width:420px; margin:50px auto; }
@@ -180,7 +189,6 @@ section{
 textarea{
 	resize: vertical;
 }
-
 
 
 #status{
