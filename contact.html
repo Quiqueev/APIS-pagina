@@ -17,16 +17,38 @@
             <a href="contact.html">Contactanos</a>
 		</nav>
 	</header>
-	<main style="text-align: center" id="home">
-		<div class="container" >
-            <h1 class="contactTitle">¿Tienes algun comentario? ¡Cuentanos!</h1>
-            <form method="post">
-                <input style="background-color: white;" name="name" type="text" class="feedback-input" placeholder="Nombre" required/>   
-                <input style="background-color: white;" name="email" type="email" class="feedback-input" placeholder="Correo" required/>
-                <textarea style="background-color: white;" name="text" class="feedback-input" placeholder="Comentario" required></textarea>
-                <input type="submit" name="submit" value="Enviar"/>
-              </form>
-          </div>
+	<main>
+		<section>
+			<div class="containerCont"> 
+				<form action="https://formspree.io/f/myylrqpl" method="post">
+
+					<div class="form-group">
+						<label for="nombre">Nombre</label>
+						<input type="text" name="nombre" id="nom">
+					</div>
+
+					<div class="form-group">
+						<label for="apellido">Apellido</label>
+						<input type="text" name="apellido" id="ap">
+					</div>
+
+					<div class="form-group">
+						<label for="mail">Correo</label>
+						<input type="text" name="mail" id="mail">
+					</div>
+
+					<div class="form-group">
+						<label for="mensaje">Mensaje</label>
+						<textarea name="mensaje" id="mnsj" cols="25" rows="8"></textarea>
+					</div>
+
+					<button type="submit">Enviar</button>
+
+				</form>
+			</div>
+
+			<div id="status" class="success">Enviado</div>
+		</section>
 	</main>
 </body>
 </html>

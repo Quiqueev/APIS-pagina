@@ -94,7 +94,7 @@ article{
 form { max-width:420px; margin:50px auto; }
 
 .feedback-input {
-  color:white;
+  color:black;
   font-family: Helvetica, Arial, sans-serif;
   font-weight:500;
   font-size: 18px;
@@ -129,6 +129,13 @@ input[type="file"] {
     display: none;
 }
 
+section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
 [type="submit"]{
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
@@ -147,3 +154,67 @@ input[type="file"] {
 
 [type="submit"]:hover { background:#1269bb; }
 
+.containerCont{
+	width: 90%;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 8px;
+	margin-bottom: 0px;
+}
+
+.form-group{
+	width: 100%;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.form-group input, .form-group textarea{
+	width: 100%;
+	padding: 5px;
+	font-size: 10px;
+	border: 1px solid rgba(120, 128, 128, 0.199);
+	margin-top: 5px;
+}
+
+textarea{
+	resize: vertical;
+}
+
+
+
+#status{
+	width: 90%;
+	max-width: 500px;
+	padding: 10px;
+	margin: 0 auto;
+	border-radius: 8px;
+	text-align: center;
+}
+
+#status.success{
+	background-color: #1DA1F2;
+	color: white;
+	animation: status 4s ease forwards;
+}
+
+#status.error{
+	background-color: #indianred;
+	color: white;
+	animation: status 4s ease forwards;
+}
+
+@keyframes status{
+	0%{
+		opacity:  1;
+		pointer-events: all;
+	}
+	90%{
+		opacity: 1;
+		pointer-events: all;
+	}
+	100%{
+		opacity: 0;
+		pointer-events: none;
+	}
+}
